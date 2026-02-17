@@ -1,0 +1,45 @@
+pipeline{
+    agent any
+    environment{
+        image_name_backend = "backend"
+        image_name_frontend = "frontend"
+        tag = "v1"
+    }
+
+    stages{
+        stage('git pull'){
+            steps{
+                git branch: 'main', url: 'https://github.com/pranavmisal1002/EasyCRUD-Updated.git'
+            }
+        }
+        stage('Build Docker Image backend'){
+            steps{
+                dir('backend'){
+                    sh '''docker build -t ${image_name_backend}:${tag} .
+                    docker images'''
+                }
+            }
+        }
+        stage("run backend container"){
+            steps{
+                sh '''docker run -d -p 8080:8080 ${image_name_backend}:${tag}
+                    docker ps'''
+            }
+        }
+        stage('Build Docker Image frontend'){
+            steps{
+                dir('frontend'){
+                    sh '''docker build -t ${image_name_frontend}:${tag} .
+                    docker images'''
+                }
+            }
+        }
+        stage('run frontend container'){
+            steps{
+                sh '''docker run -d -p 80:80 ${image_name_frontend}:${tag}
+                    docker ps'''
+            }
+        }
+    }
+}
+
