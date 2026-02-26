@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: pranavmisal1002/easy-crud:backend
+          image: pranavmisal1002/easy-crud-backend:v1
           ports:
             - containerPort: 8080
 ---
