@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend-pod
-          image: pranavmisal1002/easy-crud:frontend
+          image: pranavmisal1002/easy-crud-frontend:v1
           ports:
             - containerPort: 80
 ---
