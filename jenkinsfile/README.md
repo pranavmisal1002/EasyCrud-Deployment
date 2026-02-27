@@ -483,7 +483,7 @@ pipeline{
 
 2. **Docker Image Name:**
    ```groovy
-   DOCKER_IMAGE = "yourdockerhubid/backend"
+   image_name_backend = "yourdockerhubid/backend"
    ```
 
 3. **EKS Cluster Name & Region:**
@@ -664,10 +664,10 @@ pipeline{
 **1. Change Docker Image Name:**
 
 ```groovy
-DOCKER_IMAGE = "yourdockerhubid/frontend"
+image_name_frontend = "yourdockerhubid/frontend"
 ```
 
-**2. Edit Kubernetes Deployment:** `frontend/k8s/deployment.yaml`
+**2. Edit Kubernetes Deployment:** `frontend/k8s/frontend-deployment.yaml`
 
 ```yaml
 
