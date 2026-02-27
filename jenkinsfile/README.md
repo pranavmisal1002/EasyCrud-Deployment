@@ -185,7 +185,7 @@ docker --version
 ### Install AWS CLI
 
 ```bash
-sudo apt install awscli -y
+sudo snap install aws-cli --classic
 aws --version
 ```
 
