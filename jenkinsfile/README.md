@@ -117,7 +117,8 @@ https://github.com/YOUR_USERNAME/repository-name
 
 Follow the AWS RDS setup documentation to create:
 
-**📖 Reference:**👉 [RDS Setup Documentation](https://github.com/pranavmisal1002/EasyCrud-Docker#-phase-1-database-setup-amazon-rds--mariadb)
+**📖 Reference:** 👉 [RDS Setup Documentation](https://github.com/pranavmisal1002/EasyCrud-Docker#-phase-1-database-setup-amazon-rds--mariadb)
+
 **Security Group:**
 - Allow port `3306` (MySQL) or `5432` (PostgreSQL)
 - Source: EKS cluster security group
