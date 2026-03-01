@@ -8,18 +8,7 @@ A comprehensive DevOps learning project demonstrating multiple deployment strate
 
 This repository contains a complete **EasyCRUD Application** deployed using multiple DevOps approaches. The purpose is to practice and strengthen core **DevOps**, **Cloud**, and **Site Reliability Engineering (SRE)** skills by deploying the same application using different infrastructure and CI/CD strategies.
 
----
 
-## 📋 Table of Contents
-
-- [Objective](#objective)
-- [Project Architecture](#project-architecture)
-- [Deployment Approaches](#deployment-approaches-covered)
-- [Skills Practiced](#skills-practiced)
-- [Getting Started](#getting-started)
-- [Repository Structure](#repository-structure)
-- [Prerequisites](#prerequisites)
-- [Choose Your Deployment Path](#choose-your-deployment-path)
 
 ---
 
@@ -27,40 +16,16 @@ This repository contains a complete **EasyCRUD Application** deployed using mult
 
 This project demonstrates how to deploy a full-stack application using different DevOps methodologies:
 
-- 🐳 **Docker-based deployment**
-- ☸️ **Kubernetes-based deployment**
-- 🔁 **Jenkins CI/CD pipeline deployment**
+- 🐳 **Docker-based deployment** ➡️ [Docker Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/Docker)
+- ☸️ **Kubernetes-based deployment** ➡️ [Kubernetes Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/kubernetes)
+- 🔁 **Jenkins CI/CD pipeline deployment** ➡️ [Kubernetes Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/kubernetes)
 - ☁️ **AWS cloud infrastructure**
 
 Each deployment approach is implemented separately with detailed documentation, allowing you to learn and compare different strategies.
 
 ---
 
-## 🏗️ Project Architecture
 
-### Application Stack
-
-| Component | Technology |
-|-----------|-----------|
-| **Backend** | Spring Boot (Java) |
-| **Frontend** | React.js |
-| **Database** |  (AWS RDS)  |
-| **Containerization** | Docker |
-| **Orchestration** | Kubernetes (EKS) |
-| **CI/CD** | Jenkins |
-| **Cloud Provider** | AWS |
-
-### High-Level Architecture
-
-```
-Frontend (React)
-      ↓
-Backend (Spring Boot)
-      ↓
-Database ( RDS )
-```
-
----
 
 ## 📦 Deployment Approaches Covered
 
@@ -119,13 +84,6 @@ This repository includes three distinct deployment strategies, each demonstratin
 - Automated Kubernetes deployments
 - Credential management in Jenkins
 
-**Key Features:**
-- ✅ Automated CI/CD pipeline
-- ✅ GitHub webhook integration
-- ✅ Docker image build automation
-- ✅ Docker Hub push automation
-- ✅ Kubernetes deployment automation
-- ✅ Rollout update strategies
 
 **Architecture:**
 ```
@@ -148,6 +106,31 @@ Live Application (EKS)
 ➡️ [Jenkins CI/CD Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/jenkinsfile)
 
 
+
+---
+## 🏗️ Project Architecture
+
+### Application Stack
+
+| Component | Technology |
+|-----------|-----------|
+| **Backend** | Spring Boot (Java) |
+| **Frontend** | React.js |
+| **Database** |  (AWS RDS)  |
+| **Containerization** | Docker |
+| **Orchestration** | Kubernetes (EKS) |
+| **CI/CD** | Jenkins |
+| **Cloud Provider** | AWS |
+
+### High-Level Architecture
+
+```
+Frontend (React)
+      ↓
+Backend (Spring Boot)
+      ↓
+Database ( RDS )
+```
 
 ---
 
