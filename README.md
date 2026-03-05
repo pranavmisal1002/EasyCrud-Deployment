@@ -18,7 +18,7 @@ This project demonstrates how to deploy a full-stack application using different
 
 - 🐳 **Docker-based deployment** ➡️ [Docker Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/Docker)
 - ☸️ **Kubernetes-based deployment** ➡️ [Kubernetes Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/kubernetes)
-- 🔁 **Jenkins CI/CD pipeline deployment** ➡️ [Kubernetes Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/kubernetes)
+- 🔁 **Jenkins CI/CD pipeline deployment** ➡️ [Jenkins Deployment Documentation](https://github.com/pranavmisal1002/EasyCrud-Deployment/tree/main/jenkinsfile)
 - ☁️ **AWS cloud infrastructure**
 
 Each deployment approach is implemented separately with detailed documentation, allowing you to learn and compare different strategies.
